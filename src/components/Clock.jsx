@@ -23,7 +23,7 @@ const Clock = () => {
 
   return (
     <p id="clock-text">
-      {hour}:{minutes < 10 ? '0' + minutes : minutes}:
+      {hour < 10 ? '0' + hour : hour}:{minutes < 10 ? '0' + minutes : minutes}:
       {seconds < 10 ? '0' + seconds : seconds}
     </p>
   );

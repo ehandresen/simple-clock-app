@@ -6,6 +6,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  background: #434343;
 }
 
 .header {
@@ -23,19 +24,34 @@ body {
 
 #clock-title {
   font-size: xx-large;
-  color: coral;
+  color: rgb(0, 0, 0);
   font-weight: bold;
+  box-shadow: 0px 0px 20px 5px rgba(220, 20, 60, 1);
 }
 
 #clock-background {
   background: #000;
   padding: 10px;
   border-radius: 8px;
-  box-shadow: 0px 0px 20px 0px rgba(220, 20, 60, 1);
+  box-shadow: 0px 0px 20px 5px rgba(220, 20, 60, 1);
 }
 
 #clock-text {
   font-weight: bold;
   font-size: xx-large;
-  color: rgb(220, 20, 60);
+  color: #dc143c;
+}
+
+#date-text {
+  font-weight: bold;
+  font-size: xx-large;
+  color: rgb(60, 220, 20);
+}
+
+#date-background {
+  background: #000;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 5px rgba(60, 220, 20, 1);
+  margin-bottom: 25px;
 }

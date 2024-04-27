@@ -1,7 +1,6 @@
 import Header from './components/Header';
 import Clock from './components/Clock';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState } from 'react';
+import CurrentDate from './components/CurrentDate';
 
 const App = () => {
   return (
@@ -9,7 +8,12 @@ const App = () => {
       <div className="header">
         <Header title="CLOCK" />
       </div>
+
       <div className="container">
+        <div id="date-background">
+          <CurrentDate />
+        </div>
+
         <div id="clock-background">
           <Clock />
         </div>
