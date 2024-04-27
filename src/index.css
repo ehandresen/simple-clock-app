@@ -27,5 +27,8 @@ body {
   font-weight: bold;
 }
 
-#button {
+#clock-text {
+  font-weight: bold;
+  font-size: xx-large;
+  color: crimson;
 }
