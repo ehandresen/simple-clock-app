@@ -10,7 +10,9 @@ const App = () => {
         <Header title="CLOCK" />
       </div>
       <div className="container">
-        <Clock />
+        <div id="clock-background">
+          <Clock />
+        </div>
       </div>
     </div>
   );

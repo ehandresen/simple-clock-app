@@ -27,6 +27,12 @@ body {
   font-weight: bold;
 }
 
+#clock-background {
+  background: #000;
+  padding: 10px;
+  border-radius: 8px;
+}
+
 #clock-text {
   font-weight: bold;
   font-size: xx-large;
