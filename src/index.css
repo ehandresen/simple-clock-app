@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#clock-title {
+  font-size: xx-large;
+  color: coral;
+  font-weight: bold;
+}
