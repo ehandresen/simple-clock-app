@@ -1,8 +1,28 @@
-# React + Vite
+# Simple Clock App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Clock App Screenshot](./src/images/simple-clock-app.png)
 
-Currently, two official plugins are available:
+This is a simple clock app that displays the current time and date.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Displays the current time in hours, minutes, and seconds.
+- Shows the current date including the day, month, and year.
+
+## Technologies Used
+
+- React: Utilized for building the user interface.
+- CSS: Styles the appearance of the clock app.
+- JavaScript: Used within React components to update the time and date dynamically.
+
+## Development
+
+If you want to make modifications or improvements to the clock app, feel free to fork the repository and make changes as needed.
+
+## License
+
+MIT
+
+## Author
+
+Eirik Andresen
