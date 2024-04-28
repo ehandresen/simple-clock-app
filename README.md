@@ -1,6 +1,8 @@
 # Simple Clock App
 
-![Clock App Screenshot](./src/images/simple-clock-app.png)
+[Live Demo](https://majestic-kulfi-bddb7a.netlify.app/)
+
+<img src="./src/images/simple-clock-app.png" alt="Clock App Screenshot" width="250px" height="150px">
 
 This is a simple clock app that displays the current time and date.
 
