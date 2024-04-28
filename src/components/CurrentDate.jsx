@@ -1,10 +1,9 @@
-import { useState } from 'react';
-
 const CurrentDate = () => {
-  const [day, setDay] = useState(new Date().getDay());
-  const [month, setMonth] = useState(new Date().getMonth());
-  const [year, setYear] = useState(new Date().getFullYear());
-  const [dayOfMonth, setDayOfMonth] = useState(new Date().getDate());
+  const date = new Date();
+  let day = date.getDay();
+  let month = date.getMonth();
+  let year = date.getFullYear();
+  let dayOfMonth = date.getDate();
 
   const days = [
     'Sunday',
