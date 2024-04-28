@@ -1,6 +1,6 @@
 # Simple Clock App
 
-[Live Demo](https://majestic-kulfi-bddb7a.netlify.app/)
+[Live Demo](https://majestic-kulfi-bddb7a.netlify.app/){:target="\_blank"}
 
 <img src="./src/images/simple-clock-app.png" alt="Clock App Screenshot" width="250px" height="150px">
 
